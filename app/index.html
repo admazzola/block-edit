@@ -2,9 +2,28 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Hello World!</title>
+   
+
+        <%= require('html-loader!./assets/html/head.html') %>
+
   </head>
   <body>
+
+
+
+    <div class="container" id="home">
+
+        <div class="row">
+          <div class="col s3">
+            palette
+          </diV>
+          <div class="col s9">
+            canvas
+          </diV>
+        </div>
+      </div>
+
+
     <h1>Hello World!</h1>
     <!-- All of the Node.js APIs are available in this renderer process. -->
     We are using Node.js <script>document.write(process.versions.node)</script>,
@@ -15,5 +34,10 @@
       // You can also require other files to run in this process
       require('./renderer.js')
     </script>
+
+
+
+
+
   </body>
 </html>

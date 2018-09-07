@@ -1,0 +1,175 @@
+
+
+.pretty-navbar
+{
+  border: 1px solid #eee;
+  margin: 7px 0;
+  text-align: center;
+  line-height: 50px;
+  font-size: 28px;
+  background-color: tomato;
+  color: white;
+  padding: 0;
+}
+
+[v-cloak] {display: none}
+
+.accounts-group
+{
+height: 300px;
+overflow-y: auto;
+}
+
+
+.subtitle-banner {
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+
+.quick-nav
+{
+  font-size: 1.5em;
+  text-align:center;
+
+}
+
+
+
+.quick-nav-blue
+{
+  .active
+  {
+        border-bottom: 4px solid #448ad2;
+  }
+}
+
+
+.quick-nav-red
+{
+  .active
+  {
+        border-bottom: 4px solid #e65838;
+  }
+}
+
+
+
+
+.absolute-bottom
+{
+  position:absolute;
+  bottom:10px;
+  left:50px;
+  padding:5px 15px;
+}
+
+.clickable:hover
+{
+  cursor:pointer;
+}
+
+.hoverable:hover
+{
+   opacity: 0.9;
+}
+
+.simple-input-container
+{
+
+}
+
+
+.input-sm
+{
+  input
+  {
+    height: 30px !important;
+  }
+
+}
+
+.simple-input
+{
+  padding:5px !important;
+
+  input
+  {
+    width: 70% !important; //hacky?
+
+    border: 1px solid #00b89c !important;
+    padding: 0.1em 0.8em !important;
+    border-radius: 0.2em !important;
+
+    border: 1px solid black;
+    //padding: 0px 5px;
+
+  }
+
+  input:hover
+  {
+    cursor: text;
+  }
+
+  div
+  {
+      display: inline-flex;
+       justify-content: flex-start;
+  }
+}
+
+
+
+
+.round-canvas-edges
+{
+  canvas
+  {
+    border-radius: 5em;
+  }
+
+}
+
+.sidebar-parameter-label
+{
+  line-height: 1.2em;
+}
+
+.overflow-ellipsis
+{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.margin-0
+{
+    margin: 0 !important;
+}
+
+.padding-1
+{
+  padding: 1em !important;
+}
+
+//colors
+.electric-blue
+{
+    background-color: #209cee;
+}
+
+//font size
+
+.is-size-8 {
+    font-size: 1.2rem !important;
+}
+
+.is-size-6 {
+    font-size: 1rem !important;
+}
+
+.is-size-5 {
+    font-size: 0.8rem !important;
+}
