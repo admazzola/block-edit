@@ -1,51 +1,39 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE HTML>
+<html lang="en">
   <head>
-    <meta charset="UTF-8">
+    <title>Voxel Hello World</title>
+    <meta charset="utf-8">
+    <style type="text/css">
+      body {
+        font-family: Monospace;
+        font-size: 12px;
+        background-color: #f0f0f0;
+        margin: 0px;
+        overflow: hidden;
+      }
+      #container {
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        user-select: none;
+      }
+      #crosshair {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        margin: -16px 0 0 -16px;
+        width: 32px;
+        height: 32px;
+      }
 
-
-        <%= require('html-loader!./assets/html/head.html') %>
-
+      #stats { bottom: 0px; right: 0px; }
+      .bar-tab { right: 33% !important; left: 33% !important; }
+      .logo {position: absolute; top: 5px; left: 5px; }
+      .errorMessage { text-align: center; width: 200px; margin: 20px auto; }
+    </style>
   </head>
-  <body class="fullheight">
-
-
-
-    <div class="  fullheight" id="home">
-
-        <div class="row fullheight">
-          <div class="col s3">
-            palette
-          </diV>
-          <div class="col s9 fullheight">
-
-
-            <a-scene embedded>
-               <a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9"></a-box>
-               <a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E"></a-sphere>
-               <a-cylinder position="1 0.75 -3" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder>
-               <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
-               <a-sky color="#ECECEC"></a-sky>
-             </a-scene>
-
-
-          </diV>
-        </div>
-      </div>
-
-
-    <h1>Hello World!</h1>
-    <!-- All of the Node.js APIs are available in this renderer process. -->
-
-
-    <script>
-      // You can also require other files to run in this process
-     //  require('./renderer.js')
-    </script>
-
-
-
-
-
+  <body>
+    <img class="logo" src="logo-white.png">
+    <div id="container"></div>
+    <div id="crosshair"><img src="crosshair.png"/></div> 
   </body>
 </html>

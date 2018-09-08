@@ -24,7 +24,12 @@
     "fs": "0.0.1-security",
     "html-loader": "^0.5.5",
     "materialize-css": "^0.100.2",
+    "painterly-textures": "0.0.3",
     "socket.io": "^2.1.1",
+    "toolbar": "0.0.5",
+    "voxel-fly": "^0.1.2",
+    "voxel-highlight": "0.0.10",
+    "voxel-walk": "0.0.5",
     "vue": "^2.5.13"
   },
   "devDependencies": {
@@ -53,7 +58,12 @@
     "static-site-generator-webpack-plugin": "^3.4.1",
     "style-loader": "^0.20.1",
     "webpack": "^3.10.0",
-    "webpack-dev-server": "^2.11.1"
+    "webpack-dev-server": "^2.11.1",
+    "voxel-engine": "~0.17.1",
+    "voxel-perlin-terrain": "0.0.5",
+    "voxel-forest": "0.0.0",
+    "voxel-debris": "0.0.4",
+    "voxel-player": "~0.1.0"
   },
   "babel": {
     "presets": [
